@@ -55,15 +55,18 @@ namespace DataAccessLayer
                         y.Silinmis = reader.GetBoolean(9);
                         y.Durum = reader.GetBoolean(10);
                     }
-                    con.Close();
                     return y;
                 }
-                con.Close();
                 return null;
             }
             catch//Hata Çıkar ise burası çalışır
             {
                 return null;
+            }
+            finally
+            {
+                con.Close();
+                //her durumda ne olursa olsun bağlantıyı kapat
             }
         }
 

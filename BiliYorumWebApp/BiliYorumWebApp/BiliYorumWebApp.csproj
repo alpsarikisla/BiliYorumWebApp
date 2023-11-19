@@ -68,9 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="YoneticiPanel\css\YoneticiGirisStyle.css" />
+    <Content Include="YoneticiPanel\SiteResimleri\slidebanklogin.gif" />
+    <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YoneticiPanel\YoneticiGiris.aspx.cs">
+      <DependentUpon>YoneticiGiris.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\YoneticiGiris.aspx.designer.cs">
+      <DependentUpon>YoneticiGiris.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -81,8 +91,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="YoneticiPanel\" />
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{b4422fb4-8868-4d11-b015-c5fcaf5cc0e6}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,59 @@
+﻿h1,h2,h3,h4,h5,h6{
+    margin:0;padding:0;
+}
+body {
+    font-family:Calibri;
+}
+.girisPanel
+{
+    width:620px;
+    border:1px solid silver;
+    border-radius:10px;
+    padding:10px;
+    margin:300px auto;
+}
+.sol
+{
+    float:left;
+    width:300px;
+}
+.sag {
+    float: left;
+    width: 300px;
+}
+.satir
+{
+    margin:15px 0px;
+}
+.metinKutu
+{
+    width:95%;
+    font-size:11pt;
+    border-radius:5px;
+    border:1px solid silver;
+    padding:7px;
+    color:dimgrey;
+}
+.girisButon {
+    border: 2px solid #5A5A57;
+    font-weight: 900;
+    color: white;
+    background-color: #FF757B;
+    padding: 10px 30px;
+    width: 99%;
+    border-radius: 5px;
+}
+    .girisButon:hover {
+        background-color: #ff5d64;
+        cursor: pointer;
+    }
+.hatapanel
+{
+    background-color:#fc8686;
+    color:white;
+   
+    padding:10px;
+    border:1px solid red;
+    border-radius:3px;
+}
+

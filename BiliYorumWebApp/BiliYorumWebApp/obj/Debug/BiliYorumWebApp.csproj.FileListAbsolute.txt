@@ -57,3 +57,5 @@ C:\Users\303\Documents\GitHub\BiliYorumWebApp\BiliYorumWebApp\BiliYorumWebApp\ob
 C:\Users\303\Documents\GitHub\BiliYorumWebApp\BiliYorumWebApp\BiliYorumWebApp\obj\Debug\BiliYorumWebApp.csproj.CopyComplete
 C:\Users\303\Documents\GitHub\BiliYorumWebApp\BiliYorumWebApp\BiliYorumWebApp\obj\Debug\BiliYorumWebApp.dll
 C:\Users\303\Documents\GitHub\BiliYorumWebApp\BiliYorumWebApp\BiliYorumWebApp\obj\Debug\BiliYorumWebApp.pdb
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\BiliYorumWebApp\BiliYorumWebApp\bin\DataAccessLayer.dll
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\BiliYorumWebApp\BiliYorumWebApp\bin\DataAccessLayer.pdb
