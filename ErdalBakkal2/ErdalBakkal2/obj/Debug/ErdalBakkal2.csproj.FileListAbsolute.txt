@@ -1,0 +1,7 @@
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\ErdalBakkal2\ErdalBakkal2\bin\Debug\ErdalBakkal2.exe.config
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\ErdalBakkal2\ErdalBakkal2\bin\Debug\ErdalBakkal2.exe
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\ErdalBakkal2\ErdalBakkal2\bin\Debug\ErdalBakkal2.pdb
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\ErdalBakkal2\ErdalBakkal2\obj\Debug\ErdalBakkal2.csproj.AssemblyReference.cache
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\ErdalBakkal2\ErdalBakkal2\obj\Debug\ErdalBakkal2.csproj.CoreCompileInputs.cache
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\ErdalBakkal2\ErdalBakkal2\obj\Debug\ErdalBakkal2.exe
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\ErdalBakkal2\ErdalBakkal2\obj\Debug\ErdalBakkal2.pdb

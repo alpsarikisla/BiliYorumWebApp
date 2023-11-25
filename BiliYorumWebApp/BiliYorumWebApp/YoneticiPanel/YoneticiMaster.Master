@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="YoneticiMaster.master.cs" Inherits="BiliYorumWebApp.YoneticiPanel.YoneticiMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>BiliYorum Yönetici Paneli</title>
+    <link href="css/GangamStyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="UstPanel">
+            <div class="sol">
+                <h3>Biliyorum Admin Panel</h3>
+            </div>
+            <div class="sag">
+                <asp:LinkButton ID="lbtn_cikis" runat="server" style="margin-right:40px;" OnClick="lbtn_cikis_Click">Çıkış</asp:LinkButton>
+                <asp:LinkButton ID="lbtn_kullanici" runat="server">
+                    
+                </asp:LinkButton>
+            </div>
+             <div style="clear:both"></div>
+        </div>
+        <div class="iceriktasiyici">
+            <div class="menu">
+                <ul>
+                    <a href="Anasayfa.aspx"><li>Anasayfa</li></a>
+                    <a href=""><li>Kategoriler</li></a>
+                    <a href=""><li>Kategori Ekle</li></a>
+                    <a href=""><li>Makaleler</li></a>
+                    <a href=""><li>Makale Ekle</li></a>
+                    <a href=""><li>Yorumlar</li></a>
+                    <a href=""><li>Üyeler</li></a>
+                    <a href=""><li>Kullanıcılar</li></a>
+                </ul>
+            </div>
+            <div class="icerik">
+                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+ </asp:ContentPlaceHolder>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </form>
+</body>
+</html>

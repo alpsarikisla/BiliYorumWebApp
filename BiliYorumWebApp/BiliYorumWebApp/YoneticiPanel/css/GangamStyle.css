@@ -1,0 +1,70 @@
+﻿*, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+.UstPanel {
+    background-color: #f7f7f7;
+    min-height: 50px;
+    border-bottom: 2px solid silver;
+    color: dimgray;
+}
+
+    .UstPanel .sol {
+        padding: 12px;
+        float:left;
+        width:250px;
+    }
+
+        .UstPanel .sol h3 {
+        }
+
+    .UstPanel .sag {
+        width: 1000px;
+        float: right;
+    }
+        .UstPanel .sag a{
+            float:right;
+            padding:12px 5px;
+            text-decoration:none;
+            color:gray;
+        }
+            .UstPanel .sag a:hover{
+                text-decoration:underline;
+            }
+
+            .iceriktasiyici {
+            }
+
+    .iceriktasiyici .menu {
+        width: 250px;
+        border-right: 1px solid silver;
+        min-height: 700px;
+        float: left;
+    }
+        .iceriktasiyici .menu ul{
+            list-style-type:none;
+        }
+        .iceriktasiyici .menu ul a {
+            text-decoration:none;
+            color:darkslategray;
+        }
+            .iceriktasiyici .menu ul a li {
+                padding:5px;
+                padding-left:20px;
+                border-bottom:1px solid #d4d4d4
+            }
+
+                .iceriktasiyici .menu ul a li:hover {
+                    background-color: #FF757B;
+                    color:white;
+                }
+        .iceriktasiyici .icerik {
+            width:600px;
+            float:left;
+            padding:30px;
+        }

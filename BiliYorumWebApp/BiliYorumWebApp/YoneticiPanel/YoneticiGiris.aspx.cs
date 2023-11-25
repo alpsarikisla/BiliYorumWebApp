@@ -24,6 +24,7 @@ namespace BiliYorumWebApp.YoneticiPanel
                 Yonetici yonetici = dm.YoneticiGiris(tb_kullaniciAdi.Text, tb_sifre.Text);
                 if (yonetici != null)
                 {
+                    Session["yonetici"] = yonetici;
                     Response.Redirect("Anasayfa.aspx");
                 }
                 else
