@@ -16,55 +16,131 @@ body {
 
     .UstPanel .sol {
         padding: 12px;
-        float:left;
-        width:250px;
+        float: left;
+        width: 250px;
     }
 
         .UstPanel .sol h3 {
         }
 
     .UstPanel .sag {
-        width: 1000px;
+        width: 600px;
         float: right;
     }
-        .UstPanel .sag a{
-            float:right;
-            padding:12px 5px;
-            text-decoration:none;
-            color:gray;
+
+        .UstPanel .sag a {
+            float: right;
+            padding: 12px 5px;
+            text-decoration: none;
+            color: gray;
         }
-            .UstPanel .sag a:hover{
-                text-decoration:underline;
+
+            .UstPanel .sag a:hover {
+                text-decoration: underline;
             }
 
-            .iceriktasiyici {
-            }
+.iceriktasiyici {
+}
 
     .iceriktasiyici .menu {
-        width: 250px;
+        width: 15%;
         border-right: 1px solid silver;
-        min-height: 700px;
+        min-height: 900px;
         float: left;
     }
-        .iceriktasiyici .menu ul{
-            list-style-type:none;
+
+        .iceriktasiyici .menu ul {
+            list-style-type: none;
         }
-        .iceriktasiyici .menu ul a {
-            text-decoration:none;
-            color:darkslategray;
-        }
-            .iceriktasiyici .menu ul a li {
-                padding:5px;
-                padding-left:20px;
-                border-bottom:1px solid #d4d4d4
+
+            .iceriktasiyici .menu ul a {
+                text-decoration: none;
+                color: darkslategray;
             }
 
-                .iceriktasiyici .menu ul a li:hover {
-                    background-color: #FF757B;
-                    color:white;
+                .iceriktasiyici .menu ul a li {
+                    padding: 5px;
+                    padding-left: 20px;
+                    border-bottom: 1px solid #d4d4d4
                 }
-        .iceriktasiyici .icerik {
-            width:600px;
-            float:left;
-            padding:30px;
-        }
+
+                    .iceriktasiyici .menu ul a li:hover {
+                        background-color: #FF757B;
+                        color: white;
+                    }
+
+    .iceriktasiyici .icerik {
+        width: 75%;
+        float: left;
+        padding: 30px;
+    }
+
+.formTasiyici {
+    width: 100%;
+}
+
+.formBaslik {
+    padding: 10px;
+    
+    background-color: #e9e9e9;
+    color: dimgray;
+    font-weight: 900;
+    border: 1px solid silver;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.formIcerik {
+    border: 1px solid silver;
+    border-top: none;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.satir {
+}
+
+.metinKutu {
+    width: 95%;
+    font-size: 11pt;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 7px;
+    color: dimgrey;
+}
+
+.islemButon {
+    border: 1px solid #5A5A57;
+    font-weight: 900;
+    color: white;
+    background-color: #FF757B;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+    .islemButon:hover {
+        background-color: #ff5d64;
+        cursor: pointer;
+    }
+
+.satirbosluk {
+    padding: 20px 0px;
+}
+.hatapanel {
+    background-color: #ffcbcb;
+    color: darkred;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-bottom:20px;
+}
+.basarilipanel {
+    background-color: #c7ffc2;
+    color: forestgreen;
+    padding: 10px;
+    border: 1px solid forestgreen;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
