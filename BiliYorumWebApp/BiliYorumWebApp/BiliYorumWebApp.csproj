@@ -72,6 +72,7 @@
     <Content Include="YoneticiPanel\css\GangamStyle.css" />
     <Content Include="YoneticiPanel\css\YoneticiGirisStyle.css" />
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
+    <Content Include="YoneticiPanel\KategoriListele.aspx" />
     <Content Include="YoneticiPanel\SiteResimleri\7787569_correct_checklist_list_document_extension_icon.png" />
     <Content Include="YoneticiPanel\SiteResimleri\slidebanklogin.gif" />
     <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
@@ -91,6 +92,13 @@
     </Compile>
     <Compile Include="YoneticiPanel\KategoriEkle.aspx.designer.cs">
       <DependentUpon>KategoriEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriListele.aspx.cs">
+      <DependentUpon>KategoriListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\KategoriListele.aspx.designer.cs">
+      <DependentUpon>KategoriListele.aspx</DependentUpon>
     </Compile>
     <Compile Include="YoneticiPanel\YoneticiGiris.aspx.cs">
       <DependentUpon>YoneticiGiris.aspx</DependentUpon>

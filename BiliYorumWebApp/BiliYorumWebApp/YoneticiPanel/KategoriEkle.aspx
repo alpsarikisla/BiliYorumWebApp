@@ -9,7 +9,7 @@
         </div>
         <div class="formIcerik">
             <asp:Panel ID="pnl_hata" runat="server" CssClass="hatapanel" Visible="false">
-                <asp:Label ID="lbl_mesaj" runat="server">Hata Oluştu</asp:Label>
+                <asp:Label ID="lbl_mesaj" runat="server"></asp:Label>
             </asp:Panel>
             <asp:Panel ID="pnl_basarili" runat="server" CssClass="basarilipanel" Visible="false">
                 Kategori başarı ile eklenmiştir
@@ -19,7 +19,7 @@
                 <asp:TextBox ID="tb_isim" runat="server" CssClass="metinKutu"></asp:TextBox>
             </div>
             <div class="satir satirbosluk">
-                <asp:LinkButton ID="lbtn_kaydet" runat="server" CssClass="islemButon">Kategori Ekle</asp:LinkButton>
+                <asp:LinkButton ID="lbtn_kaydet" runat="server" CssClass="islemButon" OnClick="lbtn_kaydet_Click">Kategori Ekle</asp:LinkButton>
             </div>
         </div>
     </div>

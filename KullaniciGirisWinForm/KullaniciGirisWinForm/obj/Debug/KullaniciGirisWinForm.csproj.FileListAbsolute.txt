@@ -1,0 +1,13 @@
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\bin\Debug\KullaniciGirisWinForm.exe.config
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\bin\Debug\KullaniciGirisWinForm.exe
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\bin\Debug\KullaniciGirisWinForm.pdb
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.csproj.AssemblyReference.cache
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.KullaniciGiris.resources
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.Properties.Resources.resources
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.csproj.GenerateResource.cache
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.csproj.CoreCompileInputs.cache
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.exe
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.pdb
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.Form1.resources
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.BirinciForm.resources
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\KullaniciGirisWinForm\KullaniciGirisWinForm\obj\Debug\KullaniciGirisWinForm.IkıncıForm.resources

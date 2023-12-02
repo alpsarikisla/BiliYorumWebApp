@@ -27,7 +27,7 @@
             <div class="menu">
                 <ul>
                     <a href="Anasayfa.aspx"><li>Anasayfa</li></a>
-                    <a href=""><li>Kategoriler</li></a>
+                    <a href="KategoriListele.aspx"><li>Kategoriler</li></a>
                     <a href="KategoriEkle.aspx"><li>Kategori Ekle</li></a>
                     <a href=""><li>Makaleler</li></a>
                     <a href=""><li>Makale Ekle</li></a>
