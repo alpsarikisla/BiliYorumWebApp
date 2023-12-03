@@ -75,7 +75,10 @@
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />
     <Content Include="YoneticiPanel\SiteResimleri\7787569_correct_checklist_list_document_extension_icon.png" />
+    <Content Include="YoneticiPanel\SiteResimleri\pen.png" />
+    <Content Include="YoneticiPanel\SiteResimleri\recycle.png" />
     <Content Include="YoneticiPanel\SiteResimleri\slidebanklogin.gif" />
+    <Content Include="YoneticiPanel\SiteResimleri\trash-bin.png" />
     <Content Include="YoneticiPanel\YoneticiGiris.aspx" />
   </ItemGroup>
   <ItemGroup>

@@ -30,6 +30,7 @@ namespace SaliPazariWinformsApp
                     if (y.IsActive == true)
                     {
                         girisyapildi = true;
+                        Helpers.GirisYapanYonetici = y;
                         this.Close();
                     }
                     else

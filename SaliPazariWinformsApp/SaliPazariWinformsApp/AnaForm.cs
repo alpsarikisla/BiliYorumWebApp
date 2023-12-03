@@ -19,5 +19,9 @@ namespace SaliPazariWinformsApp
             InitializeComponent();
         }
 
+        private void AnaForm_Load(object sender, EventArgs e)
+        {
+            TSSL_kullanici.Text = Helpers.GirisYapanYonetici.KullaniciAdi + "(" + Helpers.GirisYapanYonetici.YetkiIsim + ")";
+        }
     }
 }
