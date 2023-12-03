@@ -14,6 +14,8 @@ namespace SaliPazariWinformsApp
     {
         public AnaForm()
         {
+            KullaniciGiris frm = new KullaniciGiris();
+            frm.ShowDialog();
             InitializeComponent();
         }
 

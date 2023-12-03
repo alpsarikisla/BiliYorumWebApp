@@ -78,9 +78,10 @@ namespace DataAccessLayer
         {
             try
             {
-                cmd.CommandText = "INSERT INTO Kategoriler(Isim) VALUES(@i)";
+                cmd.CommandText = "INSERT INTO Kategoriler(Isim, Durum) VALUES(@i, @d)";
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@i", model.Isim);
+                cmd.Parameters.AddWithValue("@d", model.Durum);
                 con.Open();
                 cmd.ExecuteNonQuery();
                 return true;
@@ -100,15 +101,17 @@ namespace DataAccessLayer
             try
             {
                 List<Kategori> kategoriler = new List<Kategori>();
-                cmd.CommandText = "SELECT ID, Isim FROM Kategoriler";
+                cmd.CommandText = "SELECT ID, Isim, Durum FROM Kategoriler";
                 cmd.Parameters.Clear();
                 con.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
+               
                 while (reader.Read())
                 {
                     Kategori k = new Kategori();
                     k.ID = reader.GetInt32(0);
                     k.Isim = reader.GetString(1);
+                    k.Durum = reader.GetBoolean(2);
                     kategoriler.Add(k);
                 }
                 return kategoriler;

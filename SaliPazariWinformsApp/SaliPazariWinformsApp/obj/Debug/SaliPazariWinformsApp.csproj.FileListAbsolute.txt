@@ -8,3 +8,7 @@ C:\Users\303\Documents\GitHub\BiliYorumWebApp\SaliPazariWinformsApp\SaliPazariWi
 C:\Users\303\Documents\GitHub\BiliYorumWebApp\SaliPazariWinformsApp\SaliPazariWinformsApp\obj\Debug\SaliPazariWinformsApp.csproj.CoreCompileInputs.cache
 C:\Users\303\Documents\GitHub\BiliYorumWebApp\SaliPazariWinformsApp\SaliPazariWinformsApp\obj\Debug\SaliPazariWinformsApp.exe
 C:\Users\303\Documents\GitHub\BiliYorumWebApp\SaliPazariWinformsApp\SaliPazariWinformsApp\obj\Debug\SaliPazariWinformsApp.pdb
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\SaliPazariWinformsApp\SaliPazariWinformsApp\obj\Debug\SaliPazariWinformsApp.KullaniciGiris.resources
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\SaliPazariWinformsApp\SaliPazariWinformsApp\bin\Debug\DataAccessLayer.dll
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\SaliPazariWinformsApp\SaliPazariWinformsApp\bin\Debug\DataAccessLayer.pdb
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\SaliPazariWinformsApp\SaliPazariWinformsApp\obj\Debug\SaliPazariWinformsApp.csproj.CopyComplete

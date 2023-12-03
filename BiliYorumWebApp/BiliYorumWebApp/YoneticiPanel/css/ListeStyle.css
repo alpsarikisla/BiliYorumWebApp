@@ -1,0 +1,60 @@
+﻿.listetasiyici
+{
+
+}
+.listebaslik
+{
+    padding:20px;
+    border-bottom:2px solid silver;
+    margin-bottom:10px;
+}
+.listebaslik h3 {
+
+}
+.listeicerik
+{
+
+}
+    .listeicerik table {
+        width: 100%;
+        border: 1px solid silver;
+        border-bottom: none;
+    }
+    .listeicerik table tr{
+
+    }
+        .listeicerik table tr th {
+            padding: 10px;
+            border: 1px solid silver;
+            background-color: #eeeeee;
+        }
+        .listeicerik table tr td {
+            padding: 10px;
+            border: 1px solid silver;
+            text-align: center;
+        }
+.listbutton
+{
+    padding:5px;
+    border-radius:2px;
+    color:white;
+    text-decoration:none;
+}
+.duzenle{
+    background-color:dodgerblue;
+}
+.duzenle:hover {
+    background-color: #0562bd;
+}
+.durum{
+    background-color:green;
+}
+.durum:hover {
+    background-color: #016201;
+}
+.sil{
+    background-color:red;
+}
+.sil:hover {
+    background-color: #b60000;
+}

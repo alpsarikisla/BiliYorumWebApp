@@ -70,6 +70,7 @@
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\Anasayfa.aspx" />
     <Content Include="YoneticiPanel\css\GangamStyle.css" />
+    <Content Include="YoneticiPanel\css\ListeStyle.css" />
     <Content Include="YoneticiPanel\css\YoneticiGirisStyle.css" />
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />

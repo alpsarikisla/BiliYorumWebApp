@@ -16,5 +16,10 @@ namespace BiliYorumWebApp.YoneticiPanel
             lv_kategoriler.DataSource = dm.KategoriListele();
             lv_kategoriler.DataBind();//Mutlaka eklenmelidir
         }
+
+        protected void lv_kategoriler_ItemCommand(object sender, ListViewCommandEventArgs e)
+        {
+
+        }
     }
 }
