@@ -1,0 +1,7 @@
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\MetotKavrami\MetotKavrami\bin\Debug\MetotKavrami.exe.config
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\MetotKavrami\MetotKavrami\bin\Debug\MetotKavrami.exe
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\MetotKavrami\MetotKavrami\bin\Debug\MetotKavrami.pdb
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\MetotKavrami\MetotKavrami\obj\Debug\MetotKavrami.csproj.AssemblyReference.cache
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\MetotKavrami\MetotKavrami\obj\Debug\MetotKavrami.csproj.CoreCompileInputs.cache
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\MetotKavrami\MetotKavrami\obj\Debug\MetotKavrami.exe
+C:\Users\303\Documents\GitHub\BiliYorumWebApp\MetotKavrami\MetotKavrami\obj\Debug\MetotKavrami.pdb

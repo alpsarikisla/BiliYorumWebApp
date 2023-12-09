@@ -56,5 +56,92 @@ namespace DataAccessLayer
         }
 
         #endregion
+
+        #region Kategori İşlemleri
+
+        public int KategoriEkle(Kategori model)
+        {
+            int eklenenID = -1;
+            try
+            {
+                cmd.CommandText = "INSERT INTO Kategoriler(Isim, Aciklama, IsDeleted,IsActive) VALUES(@isim, @aciklama, @isDeleted,@isActive) SELECT @@IDENTITY";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@isim", model.Isim);
+                cmd.Parameters.AddWithValue("@aciklama", model.Aciklama);
+                cmd.Parameters.AddWithValue("@isDeleted", model.IsDeleted);
+                cmd.Parameters.AddWithValue("@isActive", model.IsActive);
+                con.Open();
+                eklenenID = Convert.ToInt32(cmd.ExecuteScalar());
+                return eklenenID;
+            }
+            catch
+            {
+                return eklenenID;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        public List<Kategori> KategoriListele()
+        {
+            try
+            {
+                List<Kategori> kategoriler = new List<Kategori>();
+                cmd.CommandText = "SELECT * FROM Kategoriler";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader okuyucu = cmd.ExecuteReader();
+                while (okuyucu.Read())
+                {
+                    Kategori kat = new Kategori(okuyucu.GetInt32(0), okuyucu.GetString(1), okuyucu.GetString(2), okuyucu.GetBoolean(3), okuyucu.GetBoolean(4));
+                    kat.IsActiveStr = kat.IsActive ? "Aktif" : "Pasif";
+                    kategoriler.Add(kat);
+                }
+                return kategoriler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        public Kategori KategoriGetir(int id)
+        {
+            try
+            {
+                cmd.CommandText = "SELECT * FROM Kategoriler WHERE ID=@id";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@id", id);
+                con.Open();
+                SqlDataReader okuyucu = cmd.ExecuteReader();
+                Kategori kat = new Kategori();
+                while (okuyucu.Read())
+                {
+                    kat.ID = okuyucu.GetInt32(0);
+                    kat.Isim = okuyucu.GetString(1);
+                    kat.Aciklama = okuyucu.GetString(2);
+                    kat.IsActive = okuyucu.GetBoolean(3);
+                    kat.IsDeleted = okuyucu.GetBoolean(4);
+                }
+                return kat;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+
+        }
+
+        #endregion
     }
 }

@@ -56,6 +56,12 @@
       <DependentUpon>AnaForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Helpers.cs" />
+    <Compile Include="KategoriIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KategoriIslemleri.Designer.cs">
+      <DependentUpon>KategoriIslemleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="KullaniciGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AnaForm.resx">
       <DependentUpon>AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KategoriIslemleri.resx">
+      <DependentUpon>KategoriIslemleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KullaniciGiris.resx">
       <DependentUpon>KullaniciGiris.cs</DependentUpon>

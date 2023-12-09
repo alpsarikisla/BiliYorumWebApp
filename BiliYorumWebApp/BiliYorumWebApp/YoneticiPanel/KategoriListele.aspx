@@ -26,7 +26,7 @@
                         <td><%# Eval("Isim") %></td>
                         <td><%# Eval("Durum") %></td>
                         <td>
-                            <a href="#" title="Düzenle">
+                            <a href='KategoriDuzenle.aspx?kid=<%# Eval("ID") %>' title="Düzenle">
                                 <img src="SiteResimleri/pen.png" /></a>
                             <asp:LinkButton ID="lbtn_durum" runat="server" title="Durum Değiştir" CommandName="durum" CommandArgument='<%# Eval("ID") %>'><img src="SiteResimleri/recycle.png" /></asp:LinkButton>
                             <asp:LinkButton ID="lbtn_sil" runat="server" title="sil" CommandName="sil"  CommandArgument='<%# Eval("ID") %>'><img src="SiteResimleri/trash-bin.png" /></asp:LinkButton>

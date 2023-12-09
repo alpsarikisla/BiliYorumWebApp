@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KullaniciGiris));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.tb_kullaniciAdi = new System.Windows.Forms.TextBox();
+            this.btn_kapat = new System.Windows.Forms.Button();
+            this.btn_giris = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tb_sifre = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btn_giris = new System.Windows.Forms.Button();
-            this.btn_kapat = new System.Windows.Forms.Button();
+            this.tb_kullaniciAdi = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,12 +54,34 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Kullanıcı Bilgileri";
             // 
-            // tb_kullaniciAdi
+            // btn_kapat
             // 
-            this.tb_kullaniciAdi.Location = new System.Drawing.Point(90, 35);
-            this.tb_kullaniciAdi.Name = "tb_kullaniciAdi";
-            this.tb_kullaniciAdi.Size = new System.Drawing.Size(220, 20);
-            this.tb_kullaniciAdi.TabIndex = 0;
+            this.btn_kapat.Location = new System.Drawing.Point(235, 87);
+            this.btn_kapat.Name = "btn_kapat";
+            this.btn_kapat.Size = new System.Drawing.Size(75, 23);
+            this.btn_kapat.TabIndex = 2;
+            this.btn_kapat.Text = "Kapat";
+            this.btn_kapat.UseVisualStyleBackColor = true;
+            this.btn_kapat.Click += new System.EventHandler(this.btn_kapat_Click);
+            // 
+            // btn_giris
+            // 
+            this.btn_giris.Location = new System.Drawing.Point(154, 87);
+            this.btn_giris.Name = "btn_giris";
+            this.btn_giris.Size = new System.Drawing.Size(75, 23);
+            this.btn_giris.TabIndex = 2;
+            this.btn_giris.Text = "Giriş Yap";
+            this.btn_giris.UseVisualStyleBackColor = true;
+            this.btn_giris.Click += new System.EventHandler(this.btn_giris_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(15, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(31, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Şifre:";
             // 
             // label1
             // 
@@ -76,34 +99,12 @@
             this.tb_sifre.Size = new System.Drawing.Size(220, 20);
             this.tb_sifre.TabIndex = 0;
             // 
-            // label2
+            // tb_kullaniciAdi
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Şifre:";
-            // 
-            // btn_giris
-            // 
-            this.btn_giris.Location = new System.Drawing.Point(154, 87);
-            this.btn_giris.Name = "btn_giris";
-            this.btn_giris.Size = new System.Drawing.Size(75, 23);
-            this.btn_giris.TabIndex = 2;
-            this.btn_giris.Text = "Giriş Yap";
-            this.btn_giris.UseVisualStyleBackColor = true;
-            this.btn_giris.Click += new System.EventHandler(this.btn_giris_Click);
-            // 
-            // btn_kapat
-            // 
-            this.btn_kapat.Location = new System.Drawing.Point(235, 87);
-            this.btn_kapat.Name = "btn_kapat";
-            this.btn_kapat.Size = new System.Drawing.Size(75, 23);
-            this.btn_kapat.TabIndex = 2;
-            this.btn_kapat.Text = "Kapat";
-            this.btn_kapat.UseVisualStyleBackColor = true;
-            this.btn_kapat.Click += new System.EventHandler(this.btn_kapat_Click);
+            this.tb_kullaniciAdi.Location = new System.Drawing.Point(90, 35);
+            this.tb_kullaniciAdi.Name = "tb_kullaniciAdi";
+            this.tb_kullaniciAdi.Size = new System.Drawing.Size(220, 20);
+            this.tb_kullaniciAdi.TabIndex = 0;
             // 
             // KullaniciGiris
             // 
@@ -111,6 +112,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(356, 155);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(372, 194);
             this.MinimumSize = new System.Drawing.Size(372, 194);
             this.Name = "KullaniciGiris";

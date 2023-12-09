@@ -13,13 +13,27 @@ namespace BiliYorumWebApp.YoneticiPanel
         DataModel dm = new DataModel();
         protected void Page_Load(object sender, EventArgs e)
         {
-            lv_kategoriler.DataSource = dm.KategoriListele();
-            lv_kategoriler.DataBind();//Mutlaka eklenmelidir
+            Doldur();
         }
 
         protected void lv_kategoriler_ItemCommand(object sender, ListViewCommandEventArgs e)
         {
+            int id = Convert.ToInt32(e.CommandArgument);
+            if (e.CommandName == "durum")
+            {
+                dm.KategoriDurumDegistir(id);
+            }
+            if (e.CommandName == "sil")
+            {
+                dm.KategoriSil(id);
+            }
+            Doldur();
+        }
 
+        private void Doldur()
+        {
+            lv_kategoriler.DataSource = dm.KategoriListele();
+            lv_kategoriler.DataBind();//Mutlaka eklenmelidir
         }
     }
 }
