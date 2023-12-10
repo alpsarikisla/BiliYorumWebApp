@@ -126,6 +126,37 @@ namespace DataAccessLayer
             }
         }
 
+        public List<Kategori> KategoriListele(bool durum)
+        {
+            try
+            {
+                List<Kategori> kategoriler = new List<Kategori>();
+                cmd.CommandText = "SELECT ID, Isim, Durum FROM Kategoriler WHERE Durum = @durum";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@durum", durum);
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    Kategori k = new Kategori();
+                    k.ID = reader.GetInt32(0);
+                    k.Isim = reader.GetString(1);
+                    k.Durum = reader.GetBoolean(2);
+                    kategoriler.Add(k);
+                }
+                return kategoriler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
         public void KategoriDurumDegistir(int id)
         {
             try
@@ -217,6 +248,8 @@ namespace DataAccessLayer
                 con.Close();
             }
         }
+
+       
 
         #endregion
     }

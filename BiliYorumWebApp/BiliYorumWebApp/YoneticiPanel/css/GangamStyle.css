@@ -95,7 +95,15 @@ body {
     padding: 10px;
     padding-top: 20px;
 }
-
+.icerikSol{
+    float:left;
+    width:690px;
+}
+.icerikSag {
+    float: left;
+    width: 690px;
+    margin-left:20px;
+}
 .satir {
 }
 
@@ -124,7 +132,7 @@ body {
     }
 
 .satirbosluk {
-    padding: 20px 0px;
+    padding-top: 20px;
 }
 .hatapanel {
     background-color: #ffcbcb;
