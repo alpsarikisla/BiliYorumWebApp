@@ -249,7 +249,116 @@ namespace DataAccessLayer
             }
         }
 
-       
+        #endregion
+
+        #region Makale Metotları
+
+        public bool MakaleEkle(Makale mak)
+        {
+            try
+            {
+                cmd.CommandText = "INSERT INTO Makaleler(Kategori_ID, Yazar_ID, Baslik, Ozet, Icerik, Resim, EklemeTarih, GoruntulemeSayi, Silinmis, Durum) VALUES(@kategori_ID, @yazar_ID, @baslik, @ozet, @icerik, @resim, @eklemeTarih, @goruntulemeSayi, @silinmis, @durum)";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@kategori_ID", mak.Kategori_ID);
+                cmd.Parameters.AddWithValue("@yazar_ID", mak.Yazar_ID);
+                cmd.Parameters.AddWithValue("@baslik", mak.Baslik);
+                cmd.Parameters.AddWithValue("@ozet", mak.Ozet);
+                cmd.Parameters.AddWithValue("@icerik", mak.Icerik);
+                cmd.Parameters.AddWithValue("@resim", mak.Resim);
+                cmd.Parameters.AddWithValue("@eklemeTarih", mak.EklemeTarih);
+                cmd.Parameters.AddWithValue("@goruntulemeSayi", mak.GoruntulemeSayi);
+                cmd.Parameters.AddWithValue("@silinmis", mak.Silinmis);
+                cmd.Parameters.AddWithValue("@durum", mak.Durum);
+                con.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        public List<Makale> MakaleListele()
+        {
+            try
+            {
+                List<Makale> Makaleler = new List<Makale>();
+                cmd.CommandText = "SELECT M.ID, M.Kategori_ID, K.Isim, M.Yazar_ID, Y.KullaniciAdi, M.Baslik, M.Ozet, M.Icerik, M.Resim, M.EklemeTarih, M.GoruntulemeSayi, M.Silinmis, M.Durum FROM Makaleler AS M JOIN Kategoriler AS K ON M.Kategori_ID = K.ID JOIN Yoneticiler AS Y ON M.Yazar_ID = Y.ID";
+                cmd.Parameters.Clear();
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Makale mak = new Makale();
+                    mak.ID = reader.GetInt32(0);
+                    mak.Kategori_ID = reader.GetInt32(1);
+                    mak.Kategori = reader.GetString(2);
+                    mak.Yazar_ID = reader.GetInt32(3);
+                    mak.Yazar = reader.GetString(4);
+                    mak.Baslik = reader.GetString(5);
+                    mak.Ozet = !reader.IsDBNull(6) ? reader.GetString(6) : "";//Satır Bazında if
+                    mak.Icerik = reader.GetString(7);
+                    mak.Resim = reader.GetString(8);
+                    mak.EklemeTarih = reader.GetDateTime(9);
+                    mak.GoruntulemeSayi = reader.GetInt32(10);
+                    mak.Silinmis = reader.GetBoolean(11);
+                    mak.Durum = reader.GetBoolean(12);
+                    Makaleler.Add(mak);
+                }
+                return Makaleler;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
+
+        public Makale MakaleGetir(int id)
+        {
+            try
+            {
+                cmd.CommandText = "SELECT M.ID, M.Kategori_ID, K.Isim, M.Yazar_ID, Y.KullaniciAdi, M.Baslik, M.Ozet, M.Icerik, M.Resim, M.EklemeTarih, M.GoruntulemeSayi, M.Silinmis, M.Durum FROM Makaleler AS M JOIN Kategoriler AS K ON M.Kategori_ID = K.ID JOIN Yoneticiler AS Y ON M.Yazar_ID = Y.ID WHERE M.ID=@id";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@id", id);
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                Makale mak = new Makale();
+                while (reader.Read())
+                {
+                    mak.ID = reader.GetInt32(0);
+                    mak.Kategori_ID = reader.GetInt32(1);
+                    mak.Kategori = reader.GetString(2);
+                    mak.Yazar_ID = reader.GetInt32(3);
+                    mak.Yazar = reader.GetString(4);
+                    mak.Baslik = reader.GetString(5);
+                    mak.Ozet = !reader.IsDBNull(6) ? reader.GetString(6) : "";//Satır Bazında if
+                    mak.Icerik = reader.GetString(7);
+                    mak.Resim = reader.GetString(8);
+                    mak.EklemeTarih = reader.GetDateTime(9);
+                    mak.GoruntulemeSayi = reader.GetInt32(10);
+                    mak.Silinmis = reader.GetBoolean(11);
+                    mak.Durum = reader.GetBoolean(12);
+                }
+                return mak;
+            }
+            catch
+            {
+                return null;
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
 
         #endregion
     }

@@ -29,7 +29,7 @@
                     <a href="Anasayfa.aspx"><li>Anasayfa</li></a>
                     <a href="KategoriListele.aspx"><li>Kategoriler</li></a>
                     <a href="KategoriEkle.aspx"><li>Kategori Ekle</li></a>
-                    <a href=""><li>Makaleler</li></a>
+                    <a href="MakaleListele.aspx"><li>Makaleler</li></a>
                     <a href="MakaleEkle.aspx"><li>Makale Ekle</li></a>
                     <a href=""><li>Yorumlar</li></a>
                     <a href=""><li>Üyeler</li></a>

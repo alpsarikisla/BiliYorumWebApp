@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MakaleResimleri\01c19a8e-6824-47b5-aa97-4b09f2a9f34d.jpg" />
+    <Content Include="MakaleResimleri\none.gif" />
     <Content Include="Web.config" />
     <Content Include="YoneticiPanel\Anasayfa.aspx" />
     <Content Include="YoneticiPanel\css\GangamStyle.css" />
@@ -76,6 +78,7 @@
     <Content Include="YoneticiPanel\KategoriEkle.aspx" />
     <Content Include="YoneticiPanel\KategoriListele.aspx" />
     <Content Include="YoneticiPanel\MakaleEkle.aspx" />
+    <Content Include="YoneticiPanel\MakaleListele.aspx" />
     <Content Include="YoneticiPanel\Plugins\ckeditor\adapters\jquery.js" />
     <Content Include="YoneticiPanel\Plugins\ckeditor\build-config.js" />
     <Content Include="YoneticiPanel\Plugins\ckeditor\ckeditor.js" />
@@ -364,6 +367,13 @@
     </Compile>
     <Compile Include="YoneticiPanel\MakaleEkle.aspx.designer.cs">
       <DependentUpon>MakaleEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YoneticiPanel\MakaleListele.aspx.designer.cs">
+      <DependentUpon>MakaleListele.aspx</DependentUpon>
     </Compile>
     <Compile Include="YoneticiPanel\YoneticiGiris.aspx.cs">
       <DependentUpon>YoneticiGiris.aspx</DependentUpon>
