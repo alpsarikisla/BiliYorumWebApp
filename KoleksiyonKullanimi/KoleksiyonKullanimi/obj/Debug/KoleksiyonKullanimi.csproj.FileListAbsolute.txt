@@ -1,7 +1,0 @@
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\KoleksiyonKullanimi\KoleksiyonKullanimi\bin\Debug\KoleksiyonKullanimi.exe.config
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\KoleksiyonKullanimi\KoleksiyonKullanimi\bin\Debug\KoleksiyonKullanimi.exe
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\KoleksiyonKullanimi\KoleksiyonKullanimi\bin\Debug\KoleksiyonKullanimi.pdb
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\KoleksiyonKullanimi\KoleksiyonKullanimi\obj\Debug\KoleksiyonKullanimi.csproj.AssemblyReference.cache
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\KoleksiyonKullanimi\KoleksiyonKullanimi\obj\Debug\KoleksiyonKullanimi.csproj.CoreCompileInputs.cache
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\KoleksiyonKullanimi\KoleksiyonKullanimi\obj\Debug\KoleksiyonKullanimi.exe
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\KoleksiyonKullanimi\KoleksiyonKullanimi\obj\Debug\KoleksiyonKullanimi.pdb

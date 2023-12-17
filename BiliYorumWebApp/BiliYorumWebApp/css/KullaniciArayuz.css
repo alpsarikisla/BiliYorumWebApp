@@ -1,0 +1,88 @@
+﻿*, h1,h2,h3,h4,h5,h6{
+    margin:0;padding:0;
+}
+body {
+    font-family:Calibri;
+}
+.anaTasiyici
+{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height:700px;
+}
+.menuTasiyici
+{
+
+}
+.ustMenu
+{
+    padding:20px 0px;
+}
+    .ustMenu h2
+    {
+        font-family:Cooper;
+        font-weight:900;
+    }
+.anaMenu {
+    padding:20px 0px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.anaMenu ul{
+    list-style-type:none;
+}
+    .anaMenu ul a{
+        color:gray;
+    }
+        .anaMenu ul a:hover {
+            color: #F39200;
+            text-decoration: underline;
+        }
+    .anaMenu ul li {
+        float: left;
+        padding-right: 12px;
+    }
+    .altTasiyici{
+        padding-top:20px;
+    }
+.icerikTasiyici
+{
+    width:1020px;
+    padding-right:20px;
+    float:left;
+}
+.solalanTasiyici
+{
+    width:160px;
+    float:right;
+}
+.makale {
+    width: 468px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid Silver;
+    border-radius: 10px;
+    padding: 10px;
+    float:left;
+    min-height:470px;
+}
+.makale .ozet
+{
+    min-height:80px;
+}
+.makale img
+{
+    width:100%;
+    height:260px;
+}
+.yazarKategori {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding:5px;
+    color:dimgray;
+    margin-bottom:10px;
+}
+.devamiButton {
+    color: #F39200;
+}

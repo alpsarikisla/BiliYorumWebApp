@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="BiliYorumWebApp.MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Biliyorum App</title>
+    <link href="css/KullaniciArayuz.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="anaTasiyici">
+            <div class="menuTasiyici">
+                <div class="ustMenu">
+                    <img src="SayfaResimleri/Logo-01.png" />
+                </div>
+                <div class="anaMenu">
+                    <ul>
+                        <asp:Repeater ID="rp_kategoriler" runat="server">
+                            <ItemTemplate>
+                                <a href='#'>
+                                    <li><%# Eval("Isim") %></li>
+                                </a>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </ul>
+                    <div style="clear: both"></div>
+                </div>
+            </div>
+            <div class="altTasiyici">
+                <div class="icerikTasiyici">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="solalanTasiyici">
+                    <a href="http://www.turhost.com">
+                        <img src="Reklamlar/160x600.gif" />
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

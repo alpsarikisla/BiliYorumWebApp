@@ -1,7 +1,0 @@
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\HataYakalamaMimarisi\HataYakalamaMimarisi\bin\Debug\HataYakalamaMimarisi.exe.config
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\HataYakalamaMimarisi\HataYakalamaMimarisi\bin\Debug\HataYakalamaMimarisi.exe
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\HataYakalamaMimarisi\HataYakalamaMimarisi\bin\Debug\HataYakalamaMimarisi.pdb
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\HataYakalamaMimarisi\HataYakalamaMimarisi\obj\Debug\HataYakalamaMimarisi.csproj.AssemblyReference.cache
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\HataYakalamaMimarisi\HataYakalamaMimarisi\obj\Debug\HataYakalamaMimarisi.csproj.CoreCompileInputs.cache
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\HataYakalamaMimarisi\HataYakalamaMimarisi\obj\Debug\HataYakalamaMimarisi.exe
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\HataYakalamaMimarisi\HataYakalamaMimarisi\obj\Debug\HataYakalamaMimarisi.pdb

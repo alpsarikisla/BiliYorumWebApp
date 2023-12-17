@@ -1,7 +1,0 @@
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\DiziElemanSayisiArttirma\DiziElemanSayisiArttirma\bin\Debug\DiziElemanSayisiArttirma.exe.config
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\DiziElemanSayisiArttirma\DiziElemanSayisiArttirma\bin\Debug\DiziElemanSayisiArttirma.exe
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\DiziElemanSayisiArttirma\DiziElemanSayisiArttirma\bin\Debug\DiziElemanSayisiArttirma.pdb
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\DiziElemanSayisiArttirma\DiziElemanSayisiArttirma\obj\Debug\DiziElemanSayisiArttirma.csproj.AssemblyReference.cache
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\DiziElemanSayisiArttirma\DiziElemanSayisiArttirma\obj\Debug\DiziElemanSayisiArttirma.csproj.CoreCompileInputs.cache
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\DiziElemanSayisiArttirma\DiziElemanSayisiArttirma\obj\Debug\DiziElemanSayisiArttirma.exe
-C:\Users\303\Documents\GitHub\BiliYorumWebApp\DiziElemanSayisiArttirma\DiziElemanSayisiArttirma\obj\Debug\DiziElemanSayisiArttirma.pdb
